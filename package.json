@@ -2,12 +2,13 @@
   "name": "suryascodeverse-portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "struct": "bash -c 'find . -path ./node_modules -prune -o -path ./.next -prune -o -path ./.git -prune -o -print | sed -e \"s;[^/]*/;|____;g;s;____|; |;g\"'"
+},
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",

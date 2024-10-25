@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className="flex justify-between max-w-6xl w-full">
         <Link href={"/"}>
           <div className="flex gap-[1px]">
-            {"Yash Raj".split("").map((letter, index) => {
+            {"Suryascodeverse".split("").map((letter, index) => {
               return (
                 <span key={index} className="logo-letter">
                   {letter}
