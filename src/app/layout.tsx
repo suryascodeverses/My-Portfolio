@@ -5,6 +5,8 @@ import { ThemeProvider } from "@/components/Theme/ThemeProvider";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import { Toaster } from "react-hot-toast";
+import DrawLineWithScroll from "@/components/DrawLine/DrawLine";
+import ChatBot from "@/components/ChatBotAi/ChatBot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ChatBot />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

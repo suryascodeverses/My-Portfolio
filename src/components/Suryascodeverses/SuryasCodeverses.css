@@ -1,0 +1,21 @@
+.image-text {
+    position: absolute;
+      font-size: 6vw;
+      font-weight: bold;
+      color: transparent;
+      background-image: url(https://wallpapercave.com/uwp/uwp4549487.jpeg);
+      /* background-image: url(https://wallpapercave.com/uwp/uwp4549492.jpeg); */
+      background-size: contain;
+      background-clip: text;
+      -webkit-background-clip: text;
+      display: flex;
+      /* justify-content: center; */
+      /* text-align: center; */
+      /* align-items: center; */
+      left: 7%;
+      top: 5%;
+      line-height: 1;
+      z-index: -1;
+      font-family: cursive;
+  } 
+  

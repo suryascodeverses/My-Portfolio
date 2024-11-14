@@ -7,12 +7,14 @@ import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import { Button } from "@/components/ui/moving-border";
 import { projects } from "@/data/globalData";
 import Link from "next/link";
+import SuryasCodeverses from "@/components/Suryascodeverses/SuryasCodeverses";
 
 export default function Home() {
   return (
     <>
       <main>
         <div className="relative heroElem w-full min-h-[30rem] h-[40rem] sm:h-full pt-2 m-auto flex flex-col-reverse sm:flex-row justify-start text-center items-center">
+          <SuryasCodeverses />
           <div className="w-11/12 sm:w-[60%]">
             <HeroText />
             <div className="sm:hidden mt-3">
